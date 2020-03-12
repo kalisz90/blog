@@ -10,14 +10,12 @@ from django.contrib.auth import authenticate, login
 from django.shortcuts import HttpResponse
 
 def index(request):
-    request.session['klucz'] = 'wylogowany'
-    if request.session['klucz'] == 'zalogowany':
-        posty = Post.objects.filter(data_publikacji__lte=timezone.now()).order_by(
-            "data_publikacji"
-        )
+    posty = Post.objects.filter(data_publikacji__lte=timezone.now()).order_by(
+        "data_publikacji"
+)
     return render(request, "moj_blog/index.html", {"posts": posty})
-    else:
-        return HttpResponse('NIE JESTES ZALOGOWANY')
+    
+    
 
 
 @login_required
