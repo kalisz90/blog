@@ -3,6 +3,7 @@ h1 a, h2 a {
     font-family: 'Lobster';
 }
 body {
+    background-image: url(/home/kuba/Firefox_wallpaper.png) ;
     padding-left: 15px;
 }
 
