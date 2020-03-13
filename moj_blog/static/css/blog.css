@@ -3,7 +3,7 @@ h1 a, h2 a {
     font-family: 'Lobster';
 }
 body {
-    background-color: chocolate  ;
+    background-color: darkgoldenrod  ;
     padding-left: 15px;
 }
 
@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #515253;
+    color: #000000;
 }
 
 .save {
