@@ -1,1 +1,1 @@
-# Prosty blog napisany w pythonie wraz z wykorzystaniem django
+# Podstawowy blog napisany w pythonie wraz z wykorzystaniem django
